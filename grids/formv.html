@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<style type="text/css">
+
+
+
+
+div#container
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: left;
+}
+
+p { color: black;
+    font-family: 'Verdana','Arial',san serif;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+p.largeText {
+    color: red;
+    font-size: 30px;
+  }
+p.smallerText {
+    color: white; 
+    font-size: 12px;
+    padding-top: 3px;
+}
+a.prevnext  {	position: absolute; top:20px; left:650px;font-size:16px; 
+              text-decoration: none; color: black;
+              padding: 5px; background-color: darkgrey; }
+a:hover { color: grey ;}
+
+a.offset { left: 730px;}
+</style>
+<title>
+layered effect
+</title>
+
+</head>
+<body>
+<div id="container">
+  <div style="position: relative;padding:70px 50px 70px 50px;background-color: grey;">
+   
+
+  
+      
+		<img src="images/autum1.jpg" align=middle/>
+
+       <div style="position: absolute; top: 350px; left: 400px; width: 250px; height: 200px; background-color: grey;opacity: 0.3;filter:alpha(opacity=30)">
+       </div>
+       <!--note the div above if the closing div was after the paragraphs the text would be opaque as well as the background
+-->
+       <div style="position: absolute; top: 350px; left: 400px; width: 250px; height: 200px; background: transparent;opacity:1.0;">
+           <p class="largeText">AUTUM/WINTER COLLECTION</p>
+           <p class="smallerText">2013</p>
+           <p class="smallerText">WHERE TO BUY!!!</p>
+       </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

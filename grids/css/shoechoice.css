@@ -1,0 +1,108 @@
+
+/*
+in form inside onsubmit="alert('no items selected'); return false;"
+*/
+/*codes for shoe selection*/
+#content2 {		display: block; 		/*for centre pictures what holds div for autumn/winter and slide show*/
+				height: 78.000em;
+				clear:both; 
+				border-top-style: ridge; 
+		} 
+#name1 {		position: relative; 	/*for logo of shoe shop*/
+				float: left; 
+				width: 21%; 
+				height: 150px;
+				border-style: ridge;
+			
+				border-bottom-right-radius: 50% 50%;
+				border-bottom-left-radius: 50% 50%;
+				border-top-left-radius: 50% 50%;
+				border-top-right-radius: 50% 50%;
+		}
+#nav1 {		float:right;
+			display: block;		/*for menu of choice and address*/
+			width: 75%; 
+			margin-bottom: 1%;
+	}
+
+.k {width: 90%; height:50%;}
+.s {width: 90%;  margin: 3%;}
+iframe {width: 100%; height: 31.250em;}
+#advert { border-style: ridge; float: left; height: 31.250em; width:40%; background-color: red; margin-top: 5%;}
+.shoe, .shoe1, .shoe2, .shoe3 {width:20%; margin-left: 9%; margin-top: 5%; float: left; height: 20.000em; border-style: ridge; }
+.shoe6,.shoe4, .shoe5, .shoe7 {clear:left; float: right; width:20%; height: 20.000em; margin-top: 5%; border-style: ridge; margin-left: 6%;}
+.shoe8,.shoe0 {float: left; width: 20%; height: 20.000em; margin-top: 5%;}
+.shoe4{margin-right: 5%;}
+.alignename{text-align: center;}
+.cena{ margin: 0 auto; width: 20%; height: 50px; background-color: red;
+transform:rotate(30deg);
+-ms-transform:rotate(30deg); /* IE 9 */
+-moz-transform:rotate(30deg); /* Firefox */
+-webkit-transform:rotate(30deg); /* Safari and Chrome */
+-o-transform:rotate(30deg); /* Opera */
+z-index: 100;}
+.goback {position: fixed;
+bottom: 0px;
+right: 0%;
+margin: 0px;
+font-size: 0.190em;
+padding: 1%;
+width: 20%;
+background-color: #6E6248;
+border-top-left-radius: 30% 30%;									/*border bend first is in width size second is in length size*/
+  border-top-right-radius: 30% 30%;
+  border-bottom-left-radius: 30% 30%;
+  border-bottom-right-radius: 30% 30%; 									/*shadow*/
+	border-style: ridge;
+	color: #FFFBE7;
+}
+a{color: #FFFBE7;
+}
+
+	.shoe, .shoe1, .shoe2, .shoe3, .shoe4, .shoe5, .shoe6, .shoe7, .shoe8 {
+		width:15%;
+		padding:0.600em 0.600em 0.600em 0.600em; 		
+		text-align: center;	
+		
+		-webkit-transition: all 300ms ease-out;
+		   -moz-transition: all 300ms ease-out;
+		    -ms-transition: all 300ms ease-out; 
+		     -o-transition: all 300ms ease-out;
+		        transition: all 300ms ease-out;
+	}		
+	.shoe img, .shoe1 img, .shoe2 img, .shoe3 img, .shoe4 img, .shoe5 img, .shoe6 img, .shoe7 img, .shoe8 img {
+		margin:auto;
+		display:block;		
+		
+		-webkit-transform: scale(.9);
+		   -moz-transform: scale(.9);
+		    -ms-transform: scale(.9);
+		     -o-transform: scale(.9));		
+		        transform: scale(.9);
+	
+		-webkit-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		   -moz-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		    -ms-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		     -o-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		        transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	}	
+	.shoe:hover, .shoe1:hover, .shoe2:hover, .shoe3:hover, .shoe4:hover, .shoe5:hover, .shoe6:hover, .shoe7:hover, .shoe8:hover {
+		background-color:white;
+		background-color: rgba(200,200,200,.3);
+		-webkit-border-radius: 10px;
+		border-radius: 10px;		
+		cursor: pointer;
+	}	
+	.shoe:hover img, .shoe1:hover img, .shoe2:hover img, .shoe3:hover img, .shoe4:hover img, .shoe5:hover img, .shoe6:hover img, .shoe7:hover img, .shoe8:hover img {
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1));
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}	
+	.shoe:hover h4 , .shoe1:hover h4 , .shoe2:hover h4 , .shoe3:hover h4 , .shoe4:hover h4, .shoe5:hover h4, .shoe6:hover h4, .shoe7:hover h4, .shoe8:hover h4 {
+		color:#c9a833;		
+	}	
+	
+
+		

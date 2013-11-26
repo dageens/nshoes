@@ -1,0 +1,273 @@
+
+/*position on page div*/
+body {
+				margin: 5%; 
+				background-color: #362812; 	/*general page background color*/
+	} 
+	html, body { margin: 2% 2% 2% 2%;
+                padding: 0;
+ }
+#container {		width: 75.000em;	/*all page height*/
+			}
+			
+#nav {			float:right;
+				display: block;		/*for menu of choice and address*/
+				width: 60%; 
+				margin-bottom: 1%;
+	}
+	
+#name {			position: relative; 	/*for logo of shoe shop*/
+				float: left; 
+				width: 25%; 
+				height: 150px;
+				border-style: ridge;
+			
+				border-bottom-right-radius: 50% 50%;
+				border-bottom-left-radius: 50% 50%;
+				border-top-left-radius: 50% 50%;
+				border-top-right-radius: 50% 50%;
+		}																	
+#address {		float: right; 			/*for address on top*/
+				text-align: right;
+		}
+		
+#content {		display: block; 		/*for centre pictures what holds div for autumn/winter and slide show*/
+				height: 31.250em;
+				clear:both; 
+				border-style: ridge; 
+		} 	
+
+#im {			float: right; 			/*for div in content what holds slide show*/
+				width:70%;
+				background-image:url("mainwebsite6.jpg");
+				background-repeat: no-repeat;
+				height: 31.250em;
+				
+				background-size:100% 100%;
+	}
+	/*autum winter collection box style*/
+#box{			float: left; 			/*for div in content what holds autum/winter collection*/
+				width: 30%;
+				height: 31.250em;
+	}
+.autum {width: 100%;
+height: 31.250em;
+}
+
+
+
+.largeText {
+    color: red;
+	text-align: center;
+    font-size: 30px;
+  }
+.smallerText {
+    color: white; 
+	text-align: center;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+/*finish style of autum winter collection in box*/
+
+
+#article {		display: block; 		/*for div what hold information, contact us, follow us, company rights*/
+				margin-top: 2%; 
+				height: 18.750em; 
+				width: 100%; 
+				float:right; 
+				border-top-style: ridge;}	
+	
+	/*style of individual elements*/
+	
+.orgoal{		background-color: #865E2D;		/*for autumn/winter letter style*/
+				font-size: 200%;
+				height: 100px;
+				text-align: center;
+				color: #FFFBE7;
+		}
+.orgoal1{		color: white;					/*under autumn/winter for where to buy*/
+				font-size: 150%;
+				text-align: center;}
+script,.cus,.cus1,.cusx .h3, .goal, a, h4, p {color: #FFFBE7; 	/*color of letters for address, links, information under*/
+								}
+h3 {				text-align: left;				/*Information, Conactus, follow us text align*/
+	}
+.cus1 {			text-align:right;				/*text align for company rights*/
+		}
+.cusx {			text-align: left;
+	}
+.goal {			font-size: 130%; 				/*or goal text*/
+				font-style: italic; 
+				text-decoration: underline;
+	}
+.column1, .column2, .column3, .column4 {width: 20%; /*div inside #article*/
+										float: left; 
+										color: #FFFBE7;} 						
+.column4 {		width: 30%;}
+.column1 {		margin-left: 5%;}
+.column4 {		margin-right: 5%;}
+												
+
+
+
+							
+
+
+.change {width: 100%; 
+		height: 31.250em; } 
+h2 {text-align: center;
+color: #E7D19F;
+font-size: 200%;}																	
+h1 {	color: #E7D19F;  
+		font-family: 'Playball', cursive;
+		text-shadow: 5px 5px 5px #6E6248; 
+	
+		font-size: 270%; 
+		text-align:center;}				/* color, style, alignmetn for general company name*/
+																	/*color for letters of chouce of information, customer service, follow us*/
+																	
+																
+/*for mens, womens, contact us*/
+
+ul {
+  font-family: Arial, Verdana;
+  font-size: 0.938em;
+  margin: 0;
+ padding: 0;
+  list-style: none;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+li ul { display: none;}
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #FFFBE7; 														/*colour for letters mens womens contact us*/
+ font-size: 16px;
+  border-top-left-radius: 20% 30%;									/*border bend first is in width size second is in length size*/
+  border-top-right-radius: 20% 30%;
+  border-bottom-left-radius: 20% 30%;
+  border-bottom-right-radius: 20% 30%;
+  box-shadow: 0 0 0.625em #1C1713; 									/*shadow*/
+border-style: ridge;
+  padding: 15px 38px 15px 38px;
+  background: #6E6248;												/*background color for general*/
+}
+ul li a:hover { background: #D1BA8B; }									/*color if move mouse on mens on mens*/
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+li:hover li {
+  float: none;
+  font-size: 0.625em;
+}
+li:hover a { background: #D1BA8B; } 						/*color for hoover under*/
+li:hover li a:hover { background: #D1BA8B; }
+/*css for form*/
+
+#form {
+    display: inline-block;
+    text-align: center;
+    }
+	
+	
+	
+/*CSS for about us page and private policy*/
+
+.aboutusImage {float: right;
+width: 30%;
+ 
+height: 170px;
+margin: 2% 0 2% 2%;
+border-style: ridge;
+}
+
+.aboutusImagefloatright{
+float: left;
+width: 30%;
+
+height: 170px;
+margin: 2% 2% 2% 0;
+border-style: ridge;
+}
+.aboutusheader {text-align: center;
+font-size: 300%;
+font-family: 'Playball', cursive;
+color: white;  
+}
+.private {font-size:200%;
+font-family: 'Playball', cursive;
+color: white; 
+ text-align: center;}
+.textofcompany{font-size: 150%;
+line-height: 2.0;
+text-align:justify;
+color: white;
+}
+
+
+
+
+/*CSS for sign up page*/
+ p, h2, form, button{border:0; margin:0; padding:0;}
+ h2 {font-size: 180%; color: #362812; font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;}
+
+ /* ----------- My Form ----------- */
+ .myform{
+ margin:0 auto;
+ margin-top: 5%;
+ margin-bottom: 5%;
+ width:30%;
+ padding:6%;
+ }
+ 
+
+/* ----------- stylized ----------- */
+ #stylized{
+ border:solid 2px #b7ddf2;
+ background:#D1BA8B;
+ }
+
+ #stylized p{
+ font-size: 100%;
+ color:#666666;
+ margin-bottom:10%;
+ border-bottom:solid 1px #b7ddf2;
+ padding-bottom:10%;
+ }
+ #stylized label{
+ display:block;
+ font-weight:bold;
+ text-align:right;
+ width:100 %;
+ float:left;
+ }
+ #stylized .small{
+ color:#cream;
+ display:block;
+ margin: 0 auto;
+ font-size:11px;
+ font-weight:normal;
+ text-align:right;
+ width:140px;
+ }
+ .boxes { float: left ; padding:4px 2px;margin:2px 0 20px 10px;}
+
+
+ #stylized #submit{
+ clear:both;
+ margin-left:150px;
+ width:125px;
+ height:31px;
+ background:#666666 url(img/button.png) no-repeat;
+ text-align:center;
+ line-height:31px;
+ color:#FFFFFF;
+ font-size:11px;
+ font-weight:bold;
+ }

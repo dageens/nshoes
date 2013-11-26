@@ -1,0 +1,45 @@
+
+
+/*for map*/
+#findus {	float: left; 			/*for find us table beside map*/
+			margin-top: 3%;
+			width: 500px;
+			height: 380px;
+			border-style: ridge;
+			margin-left: 5%;
+}
+#googleMap {float:right; 			/*for google maps*/
+			margin-top: 3%;
+			width:500px;
+			height:380px;}
+
+#content1 {	display: block; 		/*for centre what holds div for find us and google maps*/
+			height: 31.250em;
+			clear:both; 
+			border-top-style: ridge; 
+		} 
+#nav1 {		float:right;
+			display: block;		/*for menu of choice and address*/
+			width: 75%; 
+			margin-bottom: 1%;
+	}
+#name1 {		position: relative; 	/*for logo of shoe shop*/
+				float: left; 
+				width: 21%; 
+				height: 150px;
+				border-style: ridge;
+			
+				border-bottom-right-radius: 50% 50%;
+				border-bottom-left-radius: 50% 50%;
+				border-top-left-radius: 50% 50%;
+				border-top-right-radius: 50% 50%;
+		}
+h4 {			font-size:200%;			/*for find us text*/
+			text-align: center;
+			color:  #FFFBE7;}
+table {		text-align: center;
+			margin-left: 23%;
+			font-size: 130%;
+			color:  #FFFBE7;}
+
+
